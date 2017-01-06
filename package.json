@@ -1,0 +1,30 @@
+{
+	"name": "simple-server-node",
+	"version": "1.0.0",
+	"description": "A simple Expressjs Web server on resin.io",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node main.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/resin-io-projects/simple-server-node.git"
+	},
+	"keywords": [
+		"resin.io",
+		"nodejs"
+	],
+	"author": "Shaun Mulligan <shaun@resin.io>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/resin-io-projects/simple-server-node/issues"
+	},
+	"homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
+	"dependencies": {
+		"rpi-gpio": "^0",
+		"lodash": "^4",
+		"lame": "^1",
+		"speaker": "^0"
+	}
+}
